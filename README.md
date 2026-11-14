@@ -1,45 +1,176 @@
-# Neon Highway - 2D Car Racing Game
+# 🏎️ Neon Highway – 2D Car Racing Game
 
-A complete, offline-ready top-down racing game built with HTML5 Canvas, CSS, and vanilla JavaScript. No build step or game framework is required.
+<p align="center">
+  <b>A Fun, Interactive and Responsive 2D Car Racing Game</b>
+</p>
 
-## Create and run the project in VS Code
+<p align="center">
+  Built using HTML5, CSS3 and JavaScript
+</p>
 
-1. In VS Code, choose **File → Open Folder...**, create a folder named `car-racing-game`, and open it.
-2. In the Explorer panel, create four files named `index.html`, `style.css`, `script.js`, and `README.md`.
-3. Add the corresponding project code to each file and save them in the same folder.
-4. Open `index.html` in a browser. For the simplest repeatable workflow, install the VS Code **Live Server** extension, right-click `index.html`, and select **Open with Live Server**.
-5. Select **Start Game**.
+---
 
-## Controls
+## 🎮 About The Project
 
-- **Laptop / desktop:** Left and Right arrows or A and D to change lanes; Space to pause or resume.
-- **Touchscreen:** Tap the large left/right buttons, or swipe horizontally on the road.
-- Avoid the traffic, collect coins, and beat your best distance score. Sound effects can be toggled in the top-right.
+**Neon Highway – 2D Car Racing Game** is a browser-based arcade racing game developed using HTML5, CSS3, and Vanilla JavaScript.
 
-Your best score is saved in browser local storage on the device and browser where you play.
+The game allows players to control a racing car on a highway, avoid incoming traffic, collect coins, and achieve the highest possible score.
 
-## Test on a laptop
+It features a modern neon-inspired interface, smooth gameplay, interactive controls, and a responsive design for an enjoyable gaming experience.
 
-Open the page in Chrome, Edge, Firefox, or Safari. Start a game, steer with the keyboard, collect a coin, pause with Space or the pause button, resume, and test the sound toggle. A crash ends the run and shows the current and best scores; **Race Again** starts a fresh run.
+The main objective of this project is to develop an interactive web-based game while learning frontend development, JavaScript programming, game logic, collision detection, and responsive web design.
 
-## Play on an Android phone
+## ✨ Key Features
 
-For quick local testing:
+- 🏎️ Player-controlled racing car
+- 🛣️ Animated highway with multiple lanes
+- 🚗 Randomly appearing enemy traffic cars
+- 🪙 Coin collection system
+- 📊 Real-time score tracking
+- 🏆 Personal best score tracking
+- ⚡ Dynamic speed indicator
+- 💥 Collision detection system
+- 🎮 Game Over and Restart functionality
+- ⏸️ Pause and Resume controls
+- 🔊 Sound ON/OFF functionality
+- 📱 Mobile-friendly gameplay and touch controls
+- 💻 Keyboard-based laptop controls
+- 💾 High score storage using Local Storage
 
-1. Connect the phone and computer to the same Wi-Fi network and start the project with VS Code Live Server.
-2. If the phone cannot connect, set Live Server's `localhost` setting to `0.0.0.0` in VS Code settings and allow the server through Windows Firewall on private networks.
-3. Find the computer's local IPv4 address (run `ipconfig` in PowerShell), then open `http://COMPUTER-IP:5500/` in Chrome on the phone, replacing `COMPUTER-IP` with that address.
+## 🛠️ Technologies Used
 
-Touch buttons and swipe steering are enabled. The road and controls suppress touch gestures that could otherwise scroll the game page. To play from anywhere, publish with GitHub Pages below.
+| Technology | Purpose |
+|---|---|
+| HTML5 | Game structure |
+| CSS3 | Styling and responsive UI |
+| JavaScript | Game logic and functionality |
+| Canvas API | Game rendering and animations |
+| Local Storage | Saving personal best score |
 
-## Publish with GitHub Pages
+## 🎯 Game Controls
 
-1. Sign in to GitHub and create a new **public** repository, for example `car-racing-game`.
-2. In VS Code, open the project folder and use **Source Control** to initialize a repository, stage the four project files, commit them, and publish/push the branch to your GitHub repository. Alternatively, upload the four files using GitHub's web interface.
-3. On GitHub, open the repository's **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)` folder, then click **Save**.
-6. Wait for the Pages deployment to finish. Open the published URL shown on the Pages settings screen; it will look like `https://YOUR-USERNAME.github.io/car-racing-game/`.
-7. Open that URL on your Android phone. GitHub Pages serves the same static HTML, CSS, and JavaScript files, so no server-side code is needed.
+### Laptop / Desktop Controls
 
-The game stores no personal data. The only persisted value is the best score in local storage.
+| Key | Action |
+|---|---|
+| ← Left Arrow | Move car left |
+| → Right Arrow | Move car right |
+| A | Move left |
+| D | Move right |
+| Space | Pause / Resume |
+
+### Mobile Controls
+
+- Touch the Left button to move left.
+- Touch the Right button to move right.
+- Swipe left or right to control the car.
+
+## 🕹️ How to Play
+
+1. Open the game in your web browser.
+2. Click the **Start Game** button.
+3. Control your car using keyboard or mobile touch controls.
+4. Avoid incoming enemy vehicles.
+5. Collect coins to increase your coin count.
+6. Survive as long as possible to increase your score.
+7. Try to beat your personal best score.
+8. If your car crashes, click **Race Again** to restart.
+
+## 📂 Project Structure
+
+```text
+Car-Racing-Game/
+│
+├── index.html       # Main game structure
+├── style.css        # Game styling and design
+├── script.js        # Game logic and controls
+└── README.md        # Project documentation
+```
+
+## 🚀 How to Run Locally
+
+Follow these steps to run the game on your computer.
+
+**Step 1:** Clone the repository.
+
+```bash
+git clone https://github.com/YOUR-USERNAME/Car-Racing-Game.git
+```
+
+**Step 2:** Open the project folder.
+
+```bash
+cd Car-Racing-Game
+```
+
+**Step 3:** Open `index.html` in your browser.
+
+Alternatively, open the folder in Visual Studio Code and use the Live Server extension.
+
+## 🌐 Play Online
+
+**Live Demo:** Add your GitHub Pages website link here.
+
+Example:
+
+```text
+https://YOUR-USERNAME.github.io/Car-Racing-Game/
+```
+
+## 📸 Game Highlights
+
+The game includes:
+
+- Neon-inspired racing interface
+- Animated highway environment
+- Player and enemy vehicles
+- Live score, speed and coin counter
+- Personal best score display
+- Game Over screen and restart option
+
+## 🎓 Learning Outcomes
+
+Through this project, I explored:
+
+- Frontend web development
+- JavaScript game programming
+- HTML5 Canvas
+- Keyboard and touch event handling
+- Collision detection
+- Game animation and movement
+- Responsive web design
+- Browser Local Storage
+- Git and GitHub project management
+
+## 🔮 Future Improvements
+
+Some features planned for future versions:
+
+- Multiple car selection
+- Nitro boost system
+- Different racing environments
+- Multiple difficulty levels
+- Car customization and upgrades
+- Advanced sound effects
+- Global leaderboard
+- Progressive Web App (PWA) support
+
+## 👨‍💻 Developer
+
+**Developed by: Mayank Saini**
+
+B.Tech – VLSI Design & Technology
+
+Interested in VLSI Design, Digital Electronics, Software Development, and Technology.
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
+
+Feel free to explore, share feedback, and suggest improvements.
+
+---
+
+<p align="center">
+  <b>🚗 Keep Racing. Keep Learning. Keep Building! 🏁</b>
+</p>
