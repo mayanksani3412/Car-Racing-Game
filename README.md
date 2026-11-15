@@ -94,7 +94,7 @@ Follow these steps to run the game on your computer.
 **Step 1:** Clone the repository.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Car-Racing-Game.git
+git clone https://github.com/mayanksani3412/Car-Racing-Game.git
 ```
 
 **Step 2:** Open the project folder.
@@ -114,7 +114,7 @@ Alternatively, open the folder in Visual Studio Code and use the Live Server ext
 Example:
 
 ```text
-https://YOUR-USERNAME.github.io/Car-Racing-Game/
+https://mayanksani3412.github.io/Car-Racing-Game/
 ```
 
 ## 📸 Game Highlights
